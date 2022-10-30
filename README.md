@@ -129,3 +129,7 @@ Hook simples e que executa apenas sua função de callback quando de fato algo �
 ### **useWindowSize**
 
 Como fica claro em seu nome, este hook, é um simples hook que retorna de forma atualizada a largura e altura da janela.
+
+### **useAuth** (em progresso (beta))
+
+Hook criado para abstrair a complexidade de criar e gerir autenticação no projeto. Ele é baseado na context-api.

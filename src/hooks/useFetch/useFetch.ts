@@ -7,7 +7,7 @@ const DEFAULT_OPTIONS = {
 type useFetchProps = {
   url: string
   options: any
-  dependencies: any
+  dependencies?: any
 }
 
 export default function useFetch({ url, options = {}, dependencies = [] }: useFetchProps) {
